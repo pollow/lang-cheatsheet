@@ -1,2 +1,1 @@
-# lang-cheatsheet
-The {X} cheat sheet for {Y} programmer
+# The {X} cheat sheet for {Y} programmer
