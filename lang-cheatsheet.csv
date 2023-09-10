@@ -1,0 +1,191 @@
+,C,C++,Java,Python 3,JavaScript,PHP
+Basic Syntax,,,,,,
+Define a variable,"int a = 10;
+char c = 'c';","int a = 10;
+char c = 'c';","int a = 10;
+char c = 'c';","a = 10
+c = 'c'","a = 10;
+/* or */ let a = 10;
+let c = 'c';","$a = 10;
+$c = 'c';"
+Define a constant,const int a = 10;,const int a = 10;,final int a = 10;,N/A,const a = 10;,const MAX_VALUE = 10;
+Declare a function,void foo(int x);,void foo(int x);,N/A,,N/A,N/A
+Define a function,void foo(int x) {...},void foo(int x) {...},N/A,"def foo(a):
+    ...",function foo(a) {...},function foo($a) {...}
+,,,,,,
+Control Flow,,,,,,
+Condition Check,"bool flag = true; // false;
+if (flag) {
+  ...
+} else {
+  ...
+}","bool flag = true; // false;
+if (flag) {
+  ...
+} else {
+  ...
+}","bool flag = true; // false;
+if (flag) {
+  ...
+} else {
+  ...
+}","cond1 = True
+cond2 = True
+if flag:
+  ...
+elif cond2:
+  ...
+else:
+  ...","const flag = true;
+if (flag) {
+  ...
+} else {
+  ...
+}",
+Loop,"for (int i = 0; i < 100; i++) {
+  ...
+}
+
+int i = 0;
+while (i < 100) {
+  ...
+  i++;
+}
+
+int i = 0;
+do {
+  ...
+  i++;
+} while (i < 100);","for (int i = 0; i < 100; i++) {
+  ...
+}
+
+int i = 0;
+while (i < 100) {
+  ...
+  i++;
+}
+
+int i = 0;
+do {
+  ...
+  i++;
+} while (i < 100);","for (int i = 0; i < 100; i++) {
+  ...
+}
+
+int i = 0;
+while (i < 100) {
+  ...
+  i++;
+}
+
+int i = 0;
+do {
+  ...
+  i++;
+} while (i < 100);","for i in range(100):
+  ...
+
+i = 0;
+while i < 100:
+  ...
+else:
+  ...","for (let i = 0; i < 100; i++) {
+  ...
+}
+
+let i = 0;
+while (i < 100) {
+  ...
+  i++;
+}",
+For each loop,N/A,"vector<string> pets {""cats"", ""dogs""};
+for (const string& str : pets) {
+  ...
+}","String[] pets = {""cats"", ""dogs""};
+for (const string& str : pets) {
+  ...
+}","pets = [""cats"", ""dogs""]
+for str in pets:
+  ...","pets = [""cats"", ""dogs""]
+for (let str of pets) {
+  ...
+}",
+Skip iteration,"for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    continue;
+}
+","for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    continue;
+}
+","for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    continue;
+}
+","for i in range(100):
+  if i == 10:
+    continue","for (let i = 0; i < 100; i++) {
+  if (i == 10)
+    continue;
+}
+",
+Exit loop,"for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    break;
+}
+","for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    break;
+}","for (int i = 0; i < 100; i++) {
+  if (i == 10)
+    break;
+}
+","for i in range(100):
+  if i == 10:
+    break","for (let i = 0; i < 100; i++) {
+  if (i == 10)
+    break;
+}
+",
+,,,,,,
+Container Operations,,,,,,
+Initiate an Array with Literal,"int arr[5] = {1, 2, 3, 4, 5};","int arr[5] = {1, 2, 3, 4, 5};
+/* or */
+vector<int> arr {1, 2, 3 ,4 ,5};","int[] arr = {1, 2, 3 ,4, 5};
+/* or */
+ArrayList<int> arr = ArrayList<>(
+  Arrays.asList(1, 2, 3, 4, 5));","arr = [1, 2, 3, 4, 5]","let arr = [1, 2, 3, 4, 5];",
+Initiate a dictionary with Literal,N/A,"map<int, int> dict { 
+  {1, 1}, {2, 2}, {3, 3} };","HashMap<int, int> dict = new HashMap<> {{
+  put(1, 1);
+  put(2, 2);
+  put(3, 3);
+}};","dict_ = {1:1, 2:2, 3:3}","let dict = new Map([[1, 1], [2, 2], [3, 3]];",
+Data Type,,,,,,
+Define a data type,"struct Name {
+  char* first;
+  char* last;
+}","struct Name {
+  String first;
+  String last;
+}","class Name {
+  public String first;
+  public String last;
+}","class:
+  first = """"
+  last = """"",,
+Instantiate a data type,"Name name;
+/* or */
+Name* name = malloc(sizeof(Name));","Name name;
+/* or */
+Name* name = new Name();",Name name = new Name();,name = Name(),"name = {first: """", last: """"};",
+Object-Orientation,,,,,,
+Class definition,,,,,,
+Constructor,,,,,,
+,,,,,,
+Assertion,,,,,,
+,,,,,,
+,,,,,,
+Exception,,,,,,
